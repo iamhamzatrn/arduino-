@@ -1,0 +1,46 @@
+// the setup function runs once when you press reset or power the board
+void setup() {
+  // initialize digital pin LED_BUILTIN as an output.
+  pinMode(LED1, OUTPUT);
+  pinMode(LED2, OUTPUT);
+  pinMode(LED3, OUTPUT);
+  pinMode(LED4, OUTPUT);
+  
+}
+
+// loop döngüsü, tekrar döngüsünden ibarettir yazılan kodu yeni bir emir gelmeyene kadar tekrarlar :)
+void loop() {
+  digitalWrite(LED1, HIGH);   // bu aşamada ledi yaktık
+  delay(1000);                       // 1000 milisaniye yani 1 saniye açık kaldı
+  digitalWrite(LED1, LOW);    // 5v inputtan gelen gücü kestik
+  delay(1000);                       // 1 saniye bekleme süresi koyduk
+
+  
+
+
+
+  digitalWrite(LED2, HIGH);   // bu aşamada ledi yaktık
+  delay(1000);                       // 1000 milisaniye yani 1 saniye açık kaldı
+  digitalWrite(LED2, LOW);    // 5v inputtan gelen gücü kestik
+  delay(1000);                       // 1 saniye bekleme süresi koyduk
+
+  
+
+
+
+ digitalWrite(LED3, HIGH);   // bu aşamada ledi yaktık
+  delay(1000);                       // 1000 milisaniye yani 1 saniye açık kaldı
+  digitalWrite(LED3, LOW);    // 5v inputtan gelen gücü kestik
+  delay(1000);                       // 1 saniye bekleme süresi koyduk
+
+  
+
+
+ digitalWrite(LED4, HIGH);   // bu aşamada ledi yaktık
+  delay(1000);                       // 1000 milisaniye yani 1 saniye açık kaldı
+  digitalWrite(LED4, LOW);    // 5v inputtan gelen gücü kestik
+  delay(1000);                       // 1 saniye bekleme süresi koyduk
+
+  
+
+}
